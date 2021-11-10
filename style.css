@@ -1,0 +1,13 @@
+h1 {
+font-size:37px !important;
+}
+canvas {
+animation-name:canvasGlow;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes canvasGlow{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px yellow;}
+
+}
